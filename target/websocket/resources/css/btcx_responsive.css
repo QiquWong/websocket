@@ -1,0 +1,89 @@
+@charset "utf-8";
+
+/*-----------------------------------------------------------------------------------
+
+	bt.cx 2013 - Responsive Stylesheet
+
+	Author: Enej Pungerčar
+	Author URL: http://www.behance.net/aeneas
+	Copyright: 2013 bt.cx
+
+-------------------------------------------------------------------------------------*/
+
+/*-----------------------------------------------------------------------------------*/
+/*	Icons
+/*-----------------------------------------------------------------------------------*/
+@media only screen and (-Webkit-min-device-pixel-ratio: 1.5),
+only screen and (-moz-min-device-pixel-ratio: 1.5),
+only screen and (-o-min-device-pixel-ratio: 3/2),
+only screen and (min-device-pixel-ratio: 1.5) {
+	
+	h1.logo {background-image: url(../img/btcx_logo@2x.png);}
+		
+}
+
+/*-----------------------------------------------------------------------------------*/
+/*	Small monitors
+/*-----------------------------------------------------------------------------------*/
+@media (max-width: 1600px) {
+
+}
+@media (max-height: 1000px) {
+	h1.logo { top: 100px; }
+	h2.coming_soon { margin-top: 50px;}
+	.index_content .container { margin-top: 200px; }
+}
+@media (max-height: 800px) {
+	h1.logo { top: 50px; }
+	h2.coming_soon { margin-top: 20px;}
+	.index_content .container { margin-top: 150px; }
+	
+	form { margin-top: 30px; }
+}
+
+
+/*-----------------------------------------------------------------------------------*/
+/*	Tablets and phones
+/*-----------------------------------------------------------------------------------*/
+@media (min-width: 980px) {
+
+}
+@media (max-width: 990px) {
+
+
+}
+
+/*-----------------------------------------------------------------------------------*/
+/*	Tablet to desktop
+/*-----------------------------------------------------------------------------------*/
+@media (min-width: 768px) and (max-width: 990px) {
+
+}
+
+/*-----------------------------------------------------------------------------------*/
+/*	Tablet and phones
+/*-----------------------------------------------------------------------------------*/
+@media (max-width: 768px) {
+
+	.index_content .container {
+		width: 100%;
+		margin-left: 0;
+		left: 0;
+		padding: 0 20px;
+	}
+	.button {
+		font-size: 1em;
+	}
+	.input {
+		font-size: 1em;
+	}
+
+}
+
+/*-----------------------------------------------------------------------------------*/
+/*	Phones
+/*-----------------------------------------------------------------------------------*/
+@media (max-width: 479px) {
+
+
+}
